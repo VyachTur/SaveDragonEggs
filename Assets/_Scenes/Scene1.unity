@@ -924,7 +924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2587d33d168e3409a1f3674408800f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 4
   basketBound: 22
   maxScore: 28
   panel: {fileID: 1826647805}
@@ -1459,6 +1458,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -10.346
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d17ba458411f0c441b30173c16430cb1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5973ab68ded66ee48b3a47063424e995, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d17ba458411f0c441b30173c16430cb1, type: 3}
 --- !u!1 &1266521163
